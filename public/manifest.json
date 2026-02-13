@@ -1,0 +1,66 @@
+{
+  "name": "PT Semen Nusantara - Mitra Strategis Infrastruktur Nasional",
+  "short_name": "Semen Nusantara",
+  "description": "PT Semen Nusantara adalah mitra strategis infrastruktur nasional yang menyediakan produk semen berkualitas tinggi untuk proyek BUMN dan Kementerian Indonesia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#D97706",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "id",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Produk",
+      "short_name": "Produk",
+      "description": "Lihat produk semen unggulan kami",
+      "url": "/produk",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Proyek",
+      "short_name": "Proyek",
+      "description": "Lihat proyek infrastruktur kami",
+      "url": "/proyek",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Kontak",
+      "short_name": "Kontak",
+      "description": "Hubungi kami untuk konsultasi",
+      "url": "/kontak",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

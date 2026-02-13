@@ -1,0 +1,116 @@
+<testsuites id="" name="" tests="7" failures="7" skipped="0" errors="0" time="68.85776999999999">
+<testsuite name="basic.spec.ts" timestamp="2026-02-10T05:51:59.108Z" hostname="chromium" tests="7" failures="7" skipped="0" time="0.206" errors="0">
+<testcase name="PT Semen Nusantara - Basic E2E Tests › homepage loads correctly" classname="basic.spec.ts" time="0.051">
+<failure message="basic.spec.ts:8:3 homepage loads correctly" type="FAILURE">
+<![CDATA[  [chromium] › basic.spec.ts:8:3 › PT Semen Nusantara - Basic E2E Tests › homepage loads correctly ─
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Windows 10\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="PT Semen Nusantara - Basic E2E Tests › navigation works correctly" classname="basic.spec.ts" time="0.014">
+<failure message="basic.spec.ts:22:3 navigation works correctly" type="FAILURE">
+<![CDATA[  [chromium] › basic.spec.ts:22:3 › PT Semen Nusantara - Basic E2E Tests › navigation works correctly 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Windows 10\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="PT Semen Nusantara - Basic E2E Tests › product cards have enhanced features" classname="basic.spec.ts" time="0.017">
+<failure message="basic.spec.ts:44:3 product cards have enhanced features" type="FAILURE">
+<![CDATA[  [chromium] › basic.spec.ts:44:3 › PT Semen Nusantara - Basic E2E Tests › product cards have enhanced features 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Windows 10\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="PT Semen Nusantara - Basic E2E Tests › language switching works" classname="basic.spec.ts" time="0.029">
+<failure message="basic.spec.ts:62:3 language switching works" type="FAILURE">
+<![CDATA[  [chromium] › basic.spec.ts:62:3 › PT Semen Nusantara - Basic E2E Tests › language switching works 
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Windows 10\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="PT Semen Nusantara - Basic E2E Tests › contact form validation" classname="basic.spec.ts" time="0.033">
+<failure message="basic.spec.ts:75:3 contact form validation" type="FAILURE">
+<![CDATA[  [chromium] › basic.spec.ts:75:3 › PT Semen Nusantara - Basic E2E Tests › contact form validation ─
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Windows 10\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="PT Semen Nusantara - Basic E2E Tests › responsive design works" classname="basic.spec.ts" time="0.038">
+<failure message="basic.spec.ts:99:3 responsive design works" type="FAILURE">
+<![CDATA[  [chromium] › basic.spec.ts:99:3 › PT Semen Nusantara - Basic E2E Tests › responsive design works ─
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Windows 10\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="PT Semen Nusantara - Basic E2E Tests › performance metrics" classname="basic.spec.ts" time="0.024">
+<failure message="basic.spec.ts:117:3 performance metrics" type="FAILURE">
+<![CDATA[  [chromium] › basic.spec.ts:117:3 › PT Semen Nusantara - Basic E2E Tests › performance metrics ────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Windows 10\AppData\Local\ms-playwright\chromium_headless_shell-1208\chrome-headless-shell-win64\chrome-headless-shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

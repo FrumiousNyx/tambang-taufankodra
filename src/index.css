@@ -1,0 +1,307 @@
+/* 1. @import WAJIB di baris pertama */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
+
+/* 2. Baru kemudian direktori Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PT Semen Nusantara - Industrial Luxury Design System */
+@layer base {
+  :root {
+    /* Core brand colors - Industrial Luxury */
+    --background: 0 0% 100%;
+    --foreground: 220 20% 15%;
+    
+    /* Slate/Charcoal - Primary */
+    --primary: 220 25% 18%;
+    --primary-foreground: 40 30% 95%;
+    
+    /* Warm Copper/Bronze - Accent */
+    --accent: 28 65% 45%;
+    --accent-foreground: 0 0% 100%;
+    --accent-glow: 28 75% 55%;
+    
+    /* Concrete Gray - Secondary */
+    --secondary: 210 10% 92%;
+    --secondary-foreground: 220 20% 20%;
+    
+    /* Steel Gray - Muted */
+    --muted: 210 15% 95%;
+    --muted-foreground: 215 15% 45%;
+    
+    /* Cards - Slight warm tint */
+    --card: 40 10% 99%;
+    --card-foreground: 220 20% 15%;
+    
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 15%;
+    
+    /* Destructive */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    
+    /* Success */
+    --success: 142 70% 40%;
+    --success-foreground: 0 0% 100%;
+    
+    /* Border & Input */
+    --border: 210 15% 88%;
+    --input: 210 15% 88%;
+    --ring: 28 65% 45%;
+    
+    --radius: 0.5rem;
+    
+    /* Sidebar */
+    --sidebar-background: 220 25% 12%;
+    --sidebar-foreground: 210 15% 90%;
+    --sidebar-primary: 28 65% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 18%;
+    --sidebar-accent-foreground: 210 15% 90%;
+    --sidebar-border: 220 20% 22%;
+    --sidebar-ring: 28 65% 50%;
+    
+    /* Custom enterprise tokens */
+    --gradient-hero: linear-gradient(135deg, hsl(220 25% 15%) 0%, hsl(220 20% 25%) 50%, hsl(28 40% 25%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(28 65% 45%) 0%, hsl(28 75% 55%) 100%);
+    --charcoal-dark: hsl(220 25% 18%);
+    --charcoal-light: hsl(220 20% 25%);
+    --copper-primary: hsl(28 65% 45%);
+    --copper-light: hsl(28 75% 55%);
+    --copper-glow: hsl(28 65% 45%, 0.15);
+    
+    --shadow-card: 0 4px 20px -4px hsla(220, 20%, 15%, 0.08);
+    --shadow-hover: 0 12px 40px -8px hsla(220, 20%, 15%, 0.15);
+    --shadow-accent: 0 8px 30px -6px hsla(28, 65%, 45%, 0.3);
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 210 15% 95%;
+    
+    --primary: 40 30% 95%;
+    --primary-foreground: 220 25% 12%;
+    
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 210 15% 90%;
+    
+    --muted: 220 20% 12%;
+    --muted-foreground: 215 15% 60%;
+    
+    --card: 220 22% 10%;
+    --card-foreground: 210 15% 95%;
+    
+    --popover: 220 22% 10%;
+    --popover-foreground: 210 15% 95%;
+    
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 28 65% 50%;
+    
+    --accent: 28 65% 50%;
+    --accent-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+    min-height: 100vh;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #root {
+    overflow-x: hidden;
+    overflow-y: auto;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    @apply font-black tracking-tight;
+    letter-spacing: -0.05em;
+  }
+  
+  /* Enterprise Typography for Statistics and Labels */
+  .stat-number {
+    font-family: 'Inter', sans-serif;
+    @apply font-black tracking-tight;
+    letter-spacing: -0.05em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .product-label {
+    font-family: 'Inter', sans-serif;
+    @apply font-bold tracking-tight;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+  }
+
+  .enterprise-metric {
+    font-family: 'Inter', sans-serif;
+    @apply font-black tracking-tight;
+    letter-spacing: -0.05em;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@layer components {
+  .container-enterprise {
+    @apply max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Grid utilities for better centering */
+  .grid-center {
+    @apply grid place-items-center justify-items-center;
+  }
+  
+  .text-center-responsive {
+    @apply text-center;
+  }
+  
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-32;
+  }
+  
+  .heading-hero {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-center;
+  }
+  
+  .heading-section {
+    @apply text-3xl md:text-4xl font-semibold text-center;
+  }
+  
+  .text-body-large {
+    @apply text-lg md:text-xl text-muted-foreground leading-relaxed text-center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .card-enterprise {
+    @apply bg-card rounded-lg border border-slate-100 transition-all duration-300;
+  }
+  
+  .card-enterprise:hover {
+    @apply border-slate-200 -translate-y-1;
+  }
+  
+  .btn-enterprise {
+    @apply inline-flex items-center justify-center px-8 py-4 font-medium text-base rounded-md transition-all duration-300;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .btn-primary {
+    @apply btn-enterprise bg-primary text-primary-foreground hover:opacity-90;
+  }
+  
+  .btn-accent {
+    @apply btn-enterprise text-accent-foreground;
+    background: var(--gradient-accent);
+    box-shadow: var(--shadow-accent);
+  }
+  
+  .btn-accent:hover {
+    @apply scale-105;
+  }
+  
+  .btn-outline {
+    @apply btn-enterprise border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-accent);
+  }
+  
+  .divider-accent {
+    @apply w-20 h-1 rounded-full;
+    background: var(--gradient-accent);
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out forwards;
+  }
+  
+  .animate-slide-right {
+    animation: slideRight 0.5s ease-out forwards;
+  }
+  
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-2;
+  }
+  
+  .hover-glow {
+    @apply transition-shadow duration-300;
+  }
+  
+  .hover-glow:hover {
+    box-shadow: var(--shadow-accent);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

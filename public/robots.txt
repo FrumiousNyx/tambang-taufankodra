@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tambang-taufankodra.vercel.app/sitemap.xml
+
+# Block common non-content paths
+Disallow: /auth/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow specific assets
+Allow: /assets/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Crawl delay (optional, be nice to servers)
+Crawl-delay: 1
