@@ -160,8 +160,4 @@ export async function POST(req: NextRequest) {
   }
 
   return Response.json({ status: 'ok' }, { status: 200 });
-  } catch (error) {
-    console.error('Contact API - General error:', error);
-    return Response.json({ error: 'Internal server error' }, { status: 500 });
-  }
 }
