@@ -32,6 +32,7 @@ export default tseslint.config(
       "@typescript-eslint/no-unused-expressions": "off",
       "react-hooks/exhaustive-deps": "off",
       "@typescript-eslint/ban-ts-comment": "off",
+      "@typescript-eslint/triple-slash-reference": "off",
     },
   },
 );
