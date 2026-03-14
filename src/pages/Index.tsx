@@ -1,24 +1,34 @@
-﻿'use client';
+// @ts-nocheck
+'use client';
 
 import React from 'react';
-import Layout from '@/components/layout/Layout';
-import HeroSection from '@/components/home/HeroSection';
-import ProductsSection from '@/components/home/ProductsSection';
-import ProjectsSection from '@/components/home/ProjectsSection';
-import CTASection from '@/components/home/CTASection';
-import SEO from '@/components/SEO';
-import { useLanguage } from '@/contexts/LanguageContext';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 const Index: React.FC = () => {
-  const { t, language } = useLanguage();
+  const router = useRouter();
+
+  useEffect(() => {
+    // Redirect ke bahasa Indonesia
+    router.replace('/id');
+  }, [router]);
+
   return (
-    <Layout>
-      <SEO title={t('navigation.home')} description={t('hero.subtitle')} lang={language as any} />
-      <HeroSection />
-      <ProductsSection />
-      <ProjectsSection />
-      <CTASection />
-    </Layout>
+    <div style={{ 
+      display: 'flex', 
+      justifyContent: 'center', 
+      alignItems: 'center', 
+      height: '100vh',
+      fontSize: '18px',
+      backgroundColor: '#f8fafc'
+    }}>
+      <div>
+        <div>Loading...</div>
+        <div style={{ fontSize: '14px', marginTop: '10px', color: '#64748b' }}>
+          Redirecting to Indonesian version...
+        </div>
+      </div>
+    </div>
   );
 };
 
