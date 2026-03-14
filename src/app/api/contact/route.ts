@@ -72,8 +72,9 @@ export async function POST(req: NextRequest) {
   let payload: Submission | null = null;
   try {
     payload = (await req.json()) as Submission;
-  } catch {
-    payload = null;
+  } catch (error) {
+    console.error('Contact API - JSON parse error:', error);
+    return Response.json({ error: 'Invalid payload' }, { status: 400 });
   }
 
   if (!payload || !payload.email || !payload.message) {
@@ -87,15 +88,27 @@ export async function POST(req: NextRequest) {
   const xff = req.headers.get('x-forwarded-for') || '';
   const ip = xff.split(',')[0]?.trim();
   const key = ip || payload.email || 'anonymous';
-  const allowed = await isAllowed(key);
-  if (!allowed) return Response.json({ error: 'Too many requests' }, { status: 429 });
+  
+  try {
+    const allowed = await isAllowed(key);
+    if (!allowed) return Response.json({ error: 'Too many requests' }, { status: 429 });
+  } catch (error) {
+    console.error('Contact API - Rate limit error:', error);
+    // Continue without rate limiting if Redis fails
+  }
 
   const token =
     req.headers.get('x-recaptcha-token') ||
     payload.recaptchaToken ||
     undefined;
-  const recaptchaOk = await verifyRecaptcha(token);
-  if (!recaptchaOk) return Response.json({ error: 'reCAPTCHA failed' }, { status: 400 });
+  
+  try {
+    const recaptchaOk = await verifyRecaptcha(token);
+    if (!recaptchaOk) return Response.json({ error: 'reCAPTCHA failed' }, { status: 400 });
+  } catch (error) {
+    console.error('Contact API - reCAPTCHA error:', error);
+    return Response.json({ error: 'reCAPTCHA verification failed' }, { status: 400 });
+  }
 
   try {
     const SUPABASE_URL = process.env.SUPABASE_URL;
@@ -124,23 +137,31 @@ export async function POST(req: NextRequest) {
       });
 
       if (!dbRes.ok) {
+        console.error('Contact API - Database error:', dbRes.status, dbRes.statusText);
         return Response.json({ error: 'Failed to store submission' }, { status: 502 });
       }
     }
+  } catch (error) {
+    console.error('Contact API - Database connection error:', error);
+    return Response.json({ error: 'Database connection failed' }, { status: 503 });
+  }
 
-    const NOTIFY_URL = process.env.CONTACT_NOTIFY_URL;
-    if (NOTIFY_URL) {
-      try {
-        await fetch(NOTIFY_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ type: 'contact_submission', payload })
-        });
-      } catch {}
+  const NOTIFY_URL = process.env.CONTACT_NOTIFY_URL;
+  if (NOTIFY_URL) {
+    try {
+      await fetch(NOTIFY_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'contact_submission', payload })
+      });
+    } catch {
+      // Ignore notification errors
     }
+  }
 
-    return Response.json({ status: 'ok' }, { status: 200 });
-  } catch {
+  return Response.json({ status: 'ok' }, { status: 200 });
+  } catch (error) {
+    console.error('Contact API - General error:', error);
     return Response.json({ error: 'Internal server error' }, { status: 500 });
   }
 }
