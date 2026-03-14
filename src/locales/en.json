@@ -1,0 +1,191 @@
+{
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "projects": "Projects",
+    "download": "Download",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "sustainability": "Sustainability",
+    "investor": "Investor",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "title": "National Infrastructure Strategic Partner",
+    "subtitle": "Supporting national infrastructure projects including toll roads, ports, and industrial areas for SOEs and Ministries.",
+    "ctaPrimary": "Request Quote",
+    "ctaSecondary": "Learn Products"
+  },
+  "stats": {
+    "production": "Production Capacity",
+    "unit": "Tons/Year",
+    "projects": "Completed Projects",
+    "experience": "Years Experience",
+    "clients": "Corporate Clients"
+  },
+  "products": {
+    "title": "Featured Products",
+    "subtitle": "High-quality cement solutions for various construction needs",
+    "viewAll": "View All Products",
+    "specs": "Technical Specifications",
+    "compare": "Compare Products",
+    "keyFeatures": "KEY FEATURES",
+    "specifications": "SPECIFICATIONS",
+    "technicalDataSheet": "Technical Data Sheet (TDS)",
+    "standard": "Standard"
+  },
+  "projects": {
+    "title": "Current Projects",
+    "subtitle": "National strategic infrastructure project portfolio",
+    "viewAll": "View All Projects",
+    "volume": "Supply Volume",
+    "client": "Client",
+    "scope": "Project Scope",
+    "highlights": "Project Highlights",
+    "productsUsed": "Products Used",
+    "ourProjects": "Our Projects",
+    "supportingProjects": "Supporting national strategic infrastructure projects with quality supply.",
+    "location": "Location"
+  },
+  "download": {
+    "title": "Download Center",
+    "subtitle": "Access technical documents and marketing materials",
+    "unlock": "Fill data to access documents",
+    "brochure": "Product Brochure",
+    "datasheet": "Technical Datasheet",
+    "profile": "Company Profile",
+    "technicalDocs": "Technical Documents",
+    "marketingMaterials": "Marketing Materials",
+    "certificates": "Certificates",
+    "fillFormToAccess": "Fill form to access documents",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "companyName": "Company Name",
+    "phoneNumber": "Phone Number",
+    "requestAccess": "Request Access",
+    "downloading": "Downloading...",
+    "downloadNow": "Download Now"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Our team is ready to assist your project needs",
+    "form": {
+      "name": "Full Name",
+      "company": "Company Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "projectType": "Project Type",
+      "projectValue": "Estimated Project Value",
+      "location": "Project Location",
+      "message": "Message",
+      "technicalProposal": "I want to receive technical proposal",
+      "submit": "Submit Request",
+      "submitting": "Submitting..."
+    }
+  },
+  "projectType": {
+    "infrastructure": "Infrastructure",
+    "residential": "Residential",
+    "commercial": "Commercial",
+    "industrial": "Industrial",
+    "other": "Other"
+  },
+  "projectValue": {
+    "small": "< Rp 1 Billion",
+    "medium": "Rp 1 - 10 Billion",
+    "large": "> Rp 10 Billion"
+  },
+  "productDescriptions": {
+    "PCC": "Premium Portland Composite Cement for various construction applications. Contains selected materials providing optimal strength and superior durability.",
+    "OPC": "Ordinary Portland Cement with SNI standards for structural construction. Provides high compressive strength and longevity for high-rise buildings.",
+    "SRC": "Sulfate Resistant Cement specifically for corrosive areas. Ideal for coastal, industrial projects, and high-sulfate environments.",
+    "SRPC": "Portland Pozzolan Cement with natural pozzolan content providing additional strength and superior chemical resistance. Suitable for concrete structures requiring high durability."
+  },
+  "about": {
+    "title": "About PT Semen Nusantara",
+    "subtitle": "Building Indonesia's foundation since 1985",
+    "vision": "Vision",
+    "mission": "Mission",
+    "values": "Our Values",
+    "quality": "Quality",
+    "qualityDesc": "Highest production standards with SNI and ISO certifications.",
+    "integrity": "Integrity",
+    "integrityDesc": "Full commitment to business ethics and transparency.",
+    "sustainability": "Sustainability",
+    "sustainabilityDesc": "Environmentally friendly and sustainable production practices.",
+    "innovation": "Innovation",
+    "innovationDesc": "Continuous product development with the latest technology.",
+    "milestone1": "Establishment of PT Semen Nusantara",
+    "milestone2": "Second Plant Expansion",
+    "milestone3": "Launch of Eco-friendly Products",
+    "milestone4": "Industry 4.0 Digitalization"
+  },
+  "dashboard": {
+    "title": "Production Dashboard",
+    "subtitle": "Real-time factory production metrics",
+    "utilization": "Factory Utilization",
+    "output": "Production Output",
+    "emissions": "CO2 Emissions",
+    "quality": "Quality Index",
+    "news": "News",
+    "products": "Products",
+    "addNews": "Add New News"
+  },
+  "auth": {
+    "title": "Admin Portal",
+    "subtitle": "PT Semen Nusantara Corporate Management System",
+    "signIn": "Sign In to Dashboard",
+    "signInSubtitle": "Enter your administrator credentials to access management system",
+    "email": "Administrator Email",
+    "password": "Password",
+    "processing": "Processing...",
+    "signInButton": "Sign In to Dashboard",
+    "security": "Protected with end-to-end encryption and enterprise security",
+    "backToHome": "Back to Home",
+    "logout": "Logout",
+    "loginSuccess": "Login successful! Redirecting to dashboard...",
+    "loginFailed": "Login failed. Please check your credentials.",
+    "error": "An error occurred. Please try again."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "productNotFound": "Product Not Found",
+    "projectNotFound": "Project Not Found",
+    "backToProducts": "Back to Products",
+    "backToProjects": "Back to Projects"
+  },
+  "cta": {
+    "title": "Ready to start your project?",
+    "subtitle": "Contact our team for free consultation and best quote",
+    "button": "Free Consultation"
+  },
+  "footer": {
+    "tagline": "Building Indonesia's Infrastructure",
+    "address": "Address",
+    "addressZh": "印度尼西亚, 芝卡朗",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "rights": "All Rights Reserved",
+    "description": "National strategic construction material provider with highest ISO quality standards.",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Your Email",
+    "yourEmail": "Your Email"
+  }
+}

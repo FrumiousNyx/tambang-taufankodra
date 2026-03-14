@@ -1,0 +1,191 @@
+{
+  "navigation": {
+    "home": "Beranda",
+    "products": "Produk",
+    "projects": "Proyek",
+    "download": "Unduhan",
+    "about": "Tentang Kami",
+    "contact": "Hubungi Kami",
+    "sustainability": "Keberlanjutan",
+    "investor": "Investor",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "title": "Mitra Strategis Infrastruktur Nasional",
+    "subtitle": "Mendukung proyek infrastruktur nasional termasuk jalan tol, pelabuhan, dan kawasan industri untuk BUMN dan Kementerian.",
+    "ctaPrimary": "Minta Penawaran",
+    "ctaSecondary": "Pelajari Produk"
+  },
+  "stats": {
+    "production": "Kapasitas Produksi",
+    "unit": "Ton/Tahun",
+    "projects": "Proyek Selesai",
+    "experience": "Tahun Pengalaman",
+    "clients": "Klien Korporat"
+  },
+  "products": {
+    "title": "Produk Unggulan",
+    "subtitle": "Solusi semen berkualitas tinggi untuk berbagai kebutuhan konstruksi",
+    "viewAll": "Lihat Semua Produk",
+    "specs": "Spesifikasi Teknis",
+    "compare": "Bandingkan Produk",
+    "keyFeatures": "FITUR UTAMA",
+    "specifications": "SPESIFIKASI",
+    "technicalDataSheet": "Technical Data Sheet (TDS)",
+    "standard": "Standard"
+  },
+  "projects": {
+    "title": "Proyek Terkini",
+    "subtitle": "Portofolio proyek infrastruktur strategis nasional",
+    "viewAll": "Lihat Semua Proyek",
+    "volume": "Volume Suplai",
+    "client": "Klien",
+    "scope": "Lingkup Proyek",
+    "highlights": "Highlights Proyek",
+    "productsUsed": "Produk yang Digunakan",
+    "ourProjects": "Proyek Kami",
+    "supportingProjects": "Mendukung proyek infrastruktur strategis nasional dengan suplai berkualitas.",
+    "location": "Lokasi"
+  },
+  "download": {
+    "title": "Pusat Unduhan",
+    "subtitle": "Akses dokumen teknis dan materi pemasaran",
+    "unlock": "Isi data untuk mengakses dokumen",
+    "brochure": "Brosur Produk",
+    "datasheet": "Datasheet Teknis",
+    "profile": "Profil Perusahaan",
+    "technicalDocs": "Dokumen Teknis",
+    "marketingMaterials": "Materi Pemasaran",
+    "certificates": "Sertifikat",
+    "fillFormToAccess": "Isi formulir untuk mengakses dokumen",
+    "fullName": "Nama Lengkap",
+    "emailAddress": "Alamat Email",
+    "companyName": "Nama Perusahaan",
+    "phoneNumber": "Nomor Telepon",
+    "requestAccess": "Request Akses",
+    "downloading": "Mengunduh...",
+    "downloadNow": "Unduh Sekarang"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Tim kami siap membantu kebutuhan proyek Anda",
+    "form": {
+      "name": "Nama Lengkap",
+      "company": "Nama Perusahaan",
+      "phone": "Nomor Telepon",
+      "email": "Alamat Email",
+      "projectType": "Tipe Proyek",
+      "projectValue": "Estimasi Nilai Proyek",
+      "location": "Lokasi Proyek",
+      "message": "Pesan",
+      "technicalProposal": "Saya ingin menerima proposal teknis",
+      "submit": "Kirim Permintaan",
+      "submitting": "Mengirim..."
+    }
+  },
+  "projectType": {
+    "infrastructure": "Infrastruktur",
+    "residential": "Perumahan",
+    "commercial": "Komersial",
+    "industrial": "Industri",
+    "other": "Lainnya"
+  },
+  "projectValue": {
+    "small": "< Rp 1 Miliar",
+    "medium": "Rp 1 - 10 Miliar",
+    "large": "> Rp 10 Miliar"
+  },
+  "about": {
+    "title": "Tentang PT Semen Nusantara",
+    "subtitle": "Membangun fondasi Indonesia sejak 1985",
+    "vision": "Visi",
+    "mission": "Misi",
+    "values": "Nilai Kami",
+    "quality": "Kualitas",
+    "qualityDesc": "Standar produksi tertinggi dengan sertifikasi SNI dan ISO.",
+    "integrity": "Integritas",
+    "integrityDesc": "Komitmen penuh terhadap etika bisnis dan transparansi.",
+    "sustainability": "Keberlanjutan",
+    "sustainabilityDesc": "Praktik produksi ramah lingkungan dan berkelanjutan.",
+    "innovation": "Inovasi",
+    "innovationDesc": "Pengembangan produk berkelanjutan dengan teknologi terkini.",
+    "milestone1": "Pendirian PT Semen Nusantara",
+    "milestone2": "Ekspansi Pabrik Kedua",
+    "milestone3": "Peluncuran Produk Ramah Lingkungan",
+    "milestone4": "Digitalisasi Industri 4.0"
+  },
+  "productDescriptions": {
+    "PCC": "Semen Portland Komposit dengan kualitas premium untuk berbagai aplikasi konstruksi. Mengandung material pilihan yang memberikan kekuatan optimal dan daya tahan superior.",
+    "OPC": "Semen Portland Ordiner dengan standar SNI untuk konstruksi struktural. Memberikan kekuatan tekan tinggi dan umur panjang untuk bangunan bertingkat.",
+    "SRC": "Semen Tahan Sulfat khusus untuk area korosif. Ideal untuk proyek di lingkungan pantai, industri, dan area dengan tingkat sulfat tinggi.",
+    "SRPC": "Semen Portland Pozzolan dengan kandungan pozzolan alam yang memberikan kekuatan tambahan dan ketahanan kimia yang superior. Cocok untuk struktur beton yang membutuhkan durability tinggi."
+  },
+  "dashboard": {
+    "title": "Dashboard Produksi",
+    "subtitle": "Metrik produksi pabrik real-time",
+    "utilization": "Utilisasi Pabrik",
+    "output": "Output Produksi",
+    "emissions": "Emisi CO2",
+    "quality": "Indeks Kualitas",
+    "news": "Berita",
+    "products": "Produk",
+    "addNews": "Tambah Berita Baru"
+  },
+  "auth": {
+    "title": "Portal Admin",
+    "subtitle": "Sistem Manajemen Korporat PT Semen Nusantara",
+    "signIn": "Masuk ke Dashboard",
+    "signInSubtitle": "Masukkan kredensial administrator Anda untuk mengakses sistem manajemen",
+    "email": "Email Administrator",
+    "password": "Kata Sandi",
+    "processing": "Memproses...",
+    "signInButton": "Masuk ke Dashboard",
+    "security": "Dilindungi dengan enkripsi end-to-end dan keamanan enterprise",
+    "backToHome": "Kembali ke Beranda",
+    "logout": "Logout",
+    "loginSuccess": "Login berhasil! Mengarahkan ke dashboard...",
+    "loginFailed": "Login gagal. Periksa kredensial Anda.",
+    "error": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "success": "Berhasil",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "edit": "Edit",
+    "delete": "Hapus",
+    "add": "Tambah",
+    "search": "Cari",
+    "filter": "Filter",
+    "sort": "Urutkan",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "close": "Tutup",
+    "confirm": "Konfirmasi",
+    "yes": "Ya",
+    "no": "Tidak",
+    "productNotFound": "Produk Tidak Ditemukan",
+    "projectNotFound": "Proyek Tidak Ditemukan",
+    "backToProducts": "Kembali ke Produk",
+    "backToProjects": "Kembali ke Proyek"
+  },
+  "cta": {
+    "title": "Siap memulai proyek Anda?",
+    "subtitle": "Hubungi tim kami untuk konsultasi gratis dan penawaran terbaik",
+    "button": "Konsultasi Gratis"
+  },
+  "footer": {
+    "tagline": "Membangun Infrastruktur Indonesia",
+    "address": "Alamat",
+    "addressZh": "印度尼西亚, 芝卡朗",
+    "quickLinks": "Tautan Cepat",
+    "contact": "Kontak",
+    "newsletter": "Berlangganan Newsletter",
+    "rights": "Hak Cipta Dilindungi",
+    "description": "Penyedia material konstruksi strategis nasional dengan standar mutu ISO tertinggi.",
+    "subscribe": "Berlangganan",
+    "emailPlaceholder": "Email Anda",
+    "yourEmail": "Email Anda"
+  }
+}
