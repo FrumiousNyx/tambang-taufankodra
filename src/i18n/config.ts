@@ -9,7 +9,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'id',
-    debug: process.env.NEXT_PUBLIC_I18N_DEBUG === 'true',
+    debug: false, // Disable debug messages
     supportedLngs: ['id', 'en', 'zh'],
     nonExplicitSupportedLngs: true,
     load: 'languageOnly',

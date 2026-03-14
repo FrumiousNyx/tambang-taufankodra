@@ -9,8 +9,11 @@ const Index: React.FC = () => {
   const router = useRouter();
 
   useEffect(() => {
-    // Redirect ke bahasa Indonesia
-    router.replace('/id');
+    // Check if router is ready before redirecting
+    if (router && router.isReady) {
+      // Redirect ke bahasa Indonesia
+      router.replace('/id');
+    }
   }, [router]);
 
   return (
